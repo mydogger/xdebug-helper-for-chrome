@@ -1,7 +1,7 @@
 {
-  "name": "Xdebug Chrome Extension",
+  "name": "Xdebug Helper for Chrome",
   "description": "Xdebug Chrome Extension, Step Debugging, Profiling and Tracing PHP Web Pages for PHP Developer.",
-  "version": "3.0.3",
+  "version": "1.0.0",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js",
