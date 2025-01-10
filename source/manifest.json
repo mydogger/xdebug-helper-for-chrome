@@ -20,15 +20,17 @@
     "default_icon": {
       "16": "/images/icon_16x16.png",
       "32": "/images/icon_32x32.png",
-      "48": "/images/icon_48x48.png",
-      "128": "/images/icon_128x128.png"
+      "128": "/images/icon_128x128.png",
+      "256": "/images/icon_256x256.png",
+      "512": "/images/icon_512x512.png"
     }
   },
   "icons": {
     "16": "/images/icon_16x16.png",
     "32": "/images/icon_32x32.png",
-    "48": "/images/icon_48x48.png",
-    "128": "/images/icon_128x128.png"
+    "128": "/images/icon_128x128.png",
+    "256": "/images/icon_256x256.png",
+    "512": "/images/icon_512x512.png"
   },
   "options_page": "options.html",
   "commands": {
