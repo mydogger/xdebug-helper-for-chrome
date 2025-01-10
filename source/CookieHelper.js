@@ -53,21 +53,21 @@ export class CookieHelper {
         if (!this.origin) {
             return ;
         }
-        const cookieDetails = {name: name, url: this.origin, storeId: await this.getStoreId()};
+        const cookieDetails = {name: name, url: this.origin, storeId: await this.getStoreId(), sameSite: 'lax', path: '/'};
         return await chrome.cookies.get(cookieDetails);
     }
 
     async deleteCookies(names) {
         for (let name of names) {
             CookieHelper.checkCookieName(name);
-            let cookieDetails = {name: name, url: this.origin, storeId: await this.getStoreId()};
+            let cookieDetails = {name: name, url: this.origin, storeId: await this.getStoreId(), sameSite: 'lax', path: '/'};
             await chrome.cookies.remove(cookieDetails)
         }
     }
 
     async setCookie(name, value) {
         CookieHelper.checkCookieName(name);
-        const cookieDetails = {name: name, url: this.origin, value: value, storeId: await this.getStoreId()};
+        const cookieDetails = {name: name, url: this.origin, value: value, storeId: await this.getStoreId(), sameSite: 'lax', path: '/'};
         await chrome.cookies.set(cookieDetails);
     }
 }
