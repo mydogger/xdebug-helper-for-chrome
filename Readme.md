@@ -42,5 +42,5 @@ There is also [Firefox version](https://github.com/BrianGilbert/xdebug-helper-fo
 
 License
 -------
-The code of this project is licensed under the [MIT license](https://raw.github.com/mydogger/xdebug-helper-for-chrome/master/source/License)
+The code of this project is licensed under the [MIT license](https://raw.github.com/emiliopedrollo/xdebug-helper-for-chrome/master/LICENSE)
 so you can use it in nearly every project you want to, commercial and non-commercial.
