@@ -14,7 +14,7 @@ How to install this extension?
 **Stable version:** Go to the [Google Chrome Web Store](https://chrome.google.com/webstore/detail/xdebug-chrome-extension/oiofkammbajfehgpleginfomeppgnglk)
 and click "Add to Chrome".
 
-**Development version:** [Download the source from GitHub](https://github.com/mydogger/xdebug-helper-for-chrome/archive/refs/heads/master.zip)
+**Development version:** [Download the source from GitHub](https://github.com/emiliopedrollo/xdebug-helper-for-chrome/archive/refs/heads/master.zip)
 and [load the extension into Chrome](http://developer.chrome.com/extensions/getstarted.html#unpacked)
 yourself!
 
@@ -26,7 +26,7 @@ How does this differ from mac-cain13 forked version?
 
 How do I contribute?
 --------------------
-A: [Submit issues and ideas](https://github.com/mydogger/xdebug-helper-for-chrome/issues)
+A: [Submit issues and ideas](https://github.com/emiliopedrollo/xdebug-helper-for-chrome/issues)
 
 B: [Submit a pull request](https://help.github.com/articles/using-pull-requests)
 
@@ -42,5 +42,5 @@ There is also [Firefox version](https://github.com/BrianGilbert/xdebug-helper-fo
 
 License
 -------
-The code of this project is licensed under the [MIT license](https://raw.github.com/mydogger/xdebug-helper-for-chrome/master/source/License)
+The code of this project is licensed under the [MIT license](https://raw.github.com/emiliopedrollo/xdebug-helper-for-chrome/master/LICENSE)
 so you can use it in nearly every project you want to, commercial and non-commercial.
